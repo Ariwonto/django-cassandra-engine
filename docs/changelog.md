@@ -201,7 +201,7 @@
 ## Version 0.3.0 (03.04.2015)
 
 * fix #29: Update to use integrated cqlengine via cassandra-driver>=2.5.0
-  (by @mbeacom and @r4fek)
+  (by @mbeacom and @Ariwonto)
 
 ## Version 0.2.3 (25.03.2015)
 

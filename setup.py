@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 import django_cassandra_engine as meta
 
 
-DESCRIPTION = 'Django Cassandra Engine - the Cassandra backend for Django'
+DESCRIPTION = 'Django Cassandra DB'
 
 
 try:
@@ -19,14 +19,14 @@ with open('requirements.txt', 'r') as f:
 
 
 setup(
-    name='django-cassandra-engine',
+    name='django-cassandra-db',
     version='.'.join(map(str, meta.__version__)),
     author=meta.__author__,
     author_email=meta.__contact__,
     url=meta.__homepage__,
     keywords='django cassandra engine backend driver wrapper database nonrel '
     'cqlengine',
-    download_url='https://github.com/r4fek/django-cassandra-engine/tarball/master',
+    download_url='https://github.com/Ariwonto/django-cassandra-engine/tarball/master',
     license='2-clause BSD',
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,

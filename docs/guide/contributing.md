@@ -6,7 +6,7 @@ simply use GitHub's fork/pull request system.
 ## Working with source code and running tests
 
 ``` sh
-    $ git clone https://github.com/r4fek/django-cassandra-engine.git
+    $ git clone https://github.com/Ariwonto/django-cassandra-engine.git
     $ pip install tox
     $ cd django_cassandra_engine
     $ tox

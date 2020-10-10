@@ -11,7 +11,7 @@ You can install it easily from
     $ pip install django-cassandra-engine
 ```
 
-or clone source code from [Github](https://github.com/r4fek/django-cassandra-engine) and run:
+or clone source code from [Github](https://github.com/Ariwonto/django-cassandra-engine) and run:
 
 ``` sh
     $ python setup.py install
@@ -19,7 +19,7 @@ or clone source code from [Github](https://github.com/r4fek/django-cassandra-eng
 
 ## Download links
 
-* [Github](https://github.com/r4fek/django-cassandra-engine)
+* [Github](https://github.com/Ariwonto/django-cassandra-engine)
 * [PyPi](https://pypi.python.org/pypi/django-cassandra-engine)
 
 ---

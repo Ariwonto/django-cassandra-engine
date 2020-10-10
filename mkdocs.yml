@@ -1,22 +1,22 @@
-site_name: Django Cassandra Engine
+site_name: Django Cassandra DB
 site_description: Apache Cassandra Database Wrapper for Django
-site_url: https://r4fek.github.io/django-cassandra-engine
-site_author: Rafał Furmański
+site_url: https://Ariwonto.github.io/django-cassandra-engine
+site_author: Aiwonto Team
 
-copyright: Copyright 2014-2020, <a href="https://linkedin.com/in/furmanski" title="Rafał Furmański" target="_blank">Rafał Furmański</a>
+copyright: Copyright 2020
 theme: material
-google_analytics: ['UA-38726443-3', 'auto']
+google_analytics: ['UA-125847964-1', 'auto']
 
 repo_name: GitHub
-repo_url: https://github.com/r4fek/django-cassandra-engine
+repo_url: https://github.com/Ariwonto/django-cassandra-engine
 
 # Options
 extra:
-  version: 1.6.1
-  logo: images/dj_cassandra.png
+  version: 0.0.1
+  logo: images/logo.png
   author:
-    github: r4fek
-    twitter: r4fek
+    github: Ariwonto
+    twitter: Ariwonto
 
 # Extensions
 markdown_extensions:
@@ -27,7 +27,7 @@ markdown_extensions:
 
 pages:
 - Home: 'index.md'
-- Django Cassandra Engine:
+- Django Cassandra DB:
     - 'Installation': 'guide/installation.md'
     - 'Getting Started': 'guide/getting_started.md'
     - 'Advanced Usage': 'guide/advanced_usage.md'
