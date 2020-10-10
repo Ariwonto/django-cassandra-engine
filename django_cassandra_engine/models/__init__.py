@@ -103,7 +103,7 @@ class DjangoCassandraOptions(options.Options):
         cql_column.help_text = ''
         cql_column.blank = allow_null
         cql_column.null = allow_null
-        cql_column.choices = []
+        cql_column.choices = getattr(cql_column, 'choices', None)
         cql_column.flatchoices = []
         cql_column.validators = []
         cql_column.editable = True
@@ -123,7 +123,7 @@ class DjangoCassandraOptions(options.Options):
         cql_column.field = cql_column
         cql_column.model = self.model_inst
         cql_column.name = cql_column.db_field_name
-        cql_column.verbose_name = cql_column.db_field_name
+        cql_column.verbose_name = cql_column.verbose_name or cql_column.db_field_name.replace('_', ' ').title()
         cql_column._verbose_name = cql_column.db_field_name
         cql_column.field.related_query_name = lambda: None
 
@@ -854,7 +854,7 @@ class DjangoCassandraModel(
                     pk_field = cls.Meta.get_pk_field
                 except AttributeError:
                     raise RuntimeError(PK_META_MISSING_HELP.format(cls))
-                return cls._primary_keys[pk_field]
+                return cls._primary_keys.get(pk_field, cls._columns[pk_field])
             else:
                 return list(six.itervalues(cls._primary_keys))[0]
         except IndexError:
