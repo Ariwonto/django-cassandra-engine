@@ -12,7 +12,7 @@ repo_url: https://github.com/Ariwonto/django-cassandra-engine
 
 # Options
 extra:
-  version: 0.0.1
+  version: 0.0.2
   logo: images/logo.png
   author:
     github: Ariwonto

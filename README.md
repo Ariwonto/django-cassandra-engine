@@ -21,7 +21,7 @@ All tools you need to start your journey with Apache Cassandra and Django Framew
 
 Recommended installation:
 
-    pip install django-cassandra-db==0.0.1
+    pip install django-cassandra-db==0.0.2
 
 ## Basic Usage ##
 
